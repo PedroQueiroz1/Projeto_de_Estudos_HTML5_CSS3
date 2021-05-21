@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-image: url(Instagram-Features-You-Need-To-Know-About.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-clip: content-box, padding-box;
+}
+
+.instagram_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-login,
+.instagram-logout,
+.instagram-logo,
+.instagram-imagem,
+.not-account,
+.link-blue {
+    background-image: linear-gradient(to bottom, rgba(243, 243, 243, 243) 0%, rgba(243, 243, 243, 243) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 100%, rgba(240, 40, 40, 1) 100%);
+    background-clip: content-box, padding-box;
+}
+
+.instagram-logo {
+    background: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 50%;
+    max-width: 40%;
+    height: auto;
+    width: auto;
+}
+
+.instagram-continue {
+    background: rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 10rem;
+}
+
+.group {
+    background: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    padding: 1.3rem 0;
+    border: 1px solid gray;
+}
+
+
+/*
+
+   padding: 35px;
+    background-image:
+      linear-gradient(to bottom,
+        rgba(240, 255, 40, 1) 0%,
+        rgba(240, 255, 40, 1) 100%),
+      linear-gradient(to bottom,
+        rgba(240, 40, 40, 1) 0%,
+        rgba(240, 40, 40, 1) 100%);
+
+
+*/
+
+.get-app {
+    color: rgb(255, 255, 255);
+}
+
+.not-account {
+    position: relative;
+    align-items: center;
+}
+
+.instagram-imagem {
+    margin: 1%;
+    border-radius: 50%;
+    max-height: 25%;
+    max-width: 15%;
+    position: relative;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+
+/*
+background: rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 30%;
+    max-width: 30%;
+
+
+.instagram_phone {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0%;
+}
+
+.instagram_phone img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}*/
