@@ -1,3 +1,3 @@
 # Projeto_Instagram_estudos
-Primeiro projeto de estudos de HTML5 e CSS3.
+Primeiro projeto de estudos de HTML5 e CSS3. </br>
 Recriando a interface de login do Instagram...
